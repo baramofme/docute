@@ -260,7 +260,99 @@ new Docute({
           ]
         }
       ]
-    }
+    },
+    '/kr/': {
+      language: 'Docute 한국어 문서',
+      editLinkText: 'GitHub 에서 수정하기',
+      nav: [
+        {
+          title: 'Home',
+          link: '/'
+        },
+        {
+          title: 'Javascript',
+          link: '/js/'
+        },
+        {
+          title: 'Docute문서',
+          link: '/kr/'
+        },
+        {
+          title: 'GitHub',
+          link: 'https://github.com/baram204/vue-typescript-excer'
+        }
+      ],
+      sidebar: [
+        {
+          title: '가이드',
+          links: [
+            {
+              title: '커스텀화',
+              link: '/kr/guide/customization'
+            },
+            {
+              title: 'Markdown 기능',
+              link: '/kr/guide/markdown-features'
+            },
+            {
+              title: 'Markdown 안에서 Vue 사용',
+              link: '/kr/guide/use-vue-in-markdown'
+            },
+            {
+              title: '다국어화',
+              link: '/kr/guide/internationalization'
+            },
+            {
+              title: '플러그인',
+              link: '/kr/guide/plugin'
+            },
+            {
+              title: '배포',
+              link: '/kr/guide/deployment'
+            }
+          ]
+        },
+        {
+          title: '진보',
+          links: [
+            {
+              title: '번들러와 함께 사용',
+              link: '/kr/guide/use-with-bundlers'
+            },
+            {
+              title: '오프라인 지원',
+              link: '/kr/guide/offline-support'
+            }
+          ]
+        },
+        {
+          title: '참조',
+          links: [
+            {
+              title: '옵션',
+              link: '/kr/options'
+            },
+            {
+              title: '내장 컴포넌트',
+              link: '/kr/builtin-components'
+            },
+            {
+              title: '플러그인 API',
+              link: '/kr/plugin-api'
+            }
+          ]
+        },
+        {
+          title: '기타',
+          links: [
+            {
+              title: '크레딧',
+              link: '/kr/credits'
+            }
+          ]
+        }
+      ]
+    },
   },
   footer: `
   &copy; ${new Date().getFullYear()} Made by <a href="https://egoist.sh">EGOIST</a> While Watching Anime.
